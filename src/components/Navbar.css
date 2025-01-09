@@ -1,0 +1,179 @@
+/* .navbar {
+  background: #e3e4ea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1500px;
+    height: 70px;
+    padding: 0 20px;  
+  }
+
+.nav-logo {
+    color: #414e5a;
+    margin-left: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+  }
+
+   .nav-menu {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 60vw;
+    justify-content: end;
+    margin-right: 2rem;
+  }
+
+  .nav-item {
+    display: flex;
+    align-items: center;
+}
+
+  .nav-link {
+    color: #414e5a;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    position: relative;
+    transition: color 0.3s ease;
+  }
+  .nav-link:hover{
+    color: #141e25;
+  }
+  .nav-link::after{
+    content: '';
+    height: 2px;
+    width: 100%;
+    background: #253542;
+    position: absolute;
+    left: 0;
+    bottom: -16px;
+    transform: scaleX(0);
+    transition: all 0.3s;
+    pointer-events: none;
+  }
+
+  .nav-link:hover::after{
+    transform: scaleX(1);
+  }
+  
+  .contact-btn {
+    background-color: #253542;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 25px;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .hamburger{
+    display: none;
+    cursor: pointer;
+  }
+  .bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: black;
+  }
+
+
+ 
+
+ */
+
+ /* Navbar container */
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #e3e4ea;
+  color: #414e5a;
+}
+
+/* Logo */
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #414e5a;
+
+}
+
+/* Hamburger menu */
+.hamburger-menu {
+  display: none; /* Hidden by default, shown only for small screens */
+}
+
+/* Navigation links */
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: #414e5a;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.nav-links a:hover {
+  color: #ff5733;
+}
+
+.contact-btn {
+  background-color: #253542;
+  color: white;
+  border: none;
+  font-size: 16px;
+  border-radius: 25px;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .hamburger-menu {
+    display: block;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+    padding: 10px 0;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+
+  .nav-links.hide {
+    display: none;
+  }
+}
