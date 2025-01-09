@@ -78,6 +78,15 @@
   margin-right: 20px;
 }
 
+@media (max-width: 768px) {
+  .hero-container span {
+    padding-left: 10px;
+  }
+  .info-links {
+    display: grid;
+  }
+}
+
 @media (max-width: 1024px) {
   .hero-container span {
     padding-left: 30px;

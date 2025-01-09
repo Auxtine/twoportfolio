@@ -29,7 +29,7 @@ function Cards() {
       <div className="cards-container">
         <div className="skill-card">
           <div className="card-image">
-            <img src="/public/card-img-1.jpg" alt="HTML" />
+            <img src="/card-img-1.jpg" alt="HTML" />
           </div>
           <div className="card-content">
             <h3>HTML</h3>
@@ -45,7 +45,7 @@ function Cards() {
         </div>
         <div className="skill-card">
           <div className="card-image">
-            <img src="/public/card-img-2.jpeg" alt="CSS" />
+            <img src="/card-img-2.jpeg" alt="CSS" />
           </div>
           <div className="card-content">
             <h3>CSS</h3>
@@ -59,7 +59,7 @@ function Cards() {
         </div>
         <div className="skill-card">
           <div className="card-image">
-            <img src="/public/card-img-1.jpg" alt="HTML" />
+            <img src="/card-img-1.jpg" alt="HTML" />
           </div>
           <div className="card-content">
             <h3>JAVASCRIPT</h3>
