@@ -16,6 +16,7 @@ Contact Links: Includes email, phone, and social media platforms.
 - Responsive Design: Media queries
 - Additional Packages: hamburger-react for a functional hamburger menu
 
+## Preview
 ![AI Generated Web Design Preview](portfolio_design.png)
 <!-- npm run build
 npm run dev -->
